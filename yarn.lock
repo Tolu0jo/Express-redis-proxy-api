@@ -143,6 +143,13 @@
   resolved "https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.5.tgz"
   integrity sha512-xrO9OoVPqFuYyR/loIHjnbvvyRZREYKLjxV4+dY6v3FQR3stQ9ZxIGkaclF7YhI9hfjpuTbu14hZEy94qKLtOA==
 
+"@types/redis@^4.0.11":
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/@types/redis/-/redis-4.0.11.tgz#0bb4c11ac9900a21ad40d2a6768ec6aaf651c0e1"
+  integrity sha512-bI+gth8La8Wg/QCR1+V1fhrL9+LZUSWfcqpOj2Kc80ZQ4ffbdL173vQd5wovmoV9i071FU9oP2g6etLuEwb6Rg==
+  dependencies:
+    redis "*"
+
 "@types/send@*":
   version "0.17.2"
   resolved "https://registry.npmjs.org/@types/send/-/send-0.17.2.tgz"
@@ -298,6 +305,11 @@ diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.npmjs.org/diff/-/diff-4.0.2.tgz"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+
+dotenv@^16.3.1:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
 ee-first@1.1.1:
   version "1.1.1"
@@ -565,7 +577,14 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-redis@^4.6.10:
+redis-url@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/redis-url/-/redis-url-1.2.1.tgz#18670095a38e989d379359dd4c6e4abff85e2eb1"
+  integrity sha512-KL+/sxJXNecWSpRZj4MhRFXkfzG9Mip62x5BDNLIaN87JtdyWHHbm09qGiSfMr5yjhKeHLju79hgSCoi1WcYRg==
+  dependencies:
+    redis ">= 0.0.1"
+
+redis@*, "redis@>= 0.0.1", redis@^4.6.10:
   version "4.6.10"
   resolved "https://registry.npmjs.org/redis/-/redis-4.6.10.tgz"
   integrity sha512-mmbyhuKgDiJ5TWUhiKhBssz+mjsuSI/lSZNPI9QvZOYzWvYGejtb+W3RlDDf8LD6Bdl5/mZeG8O1feUGhXTxEg==

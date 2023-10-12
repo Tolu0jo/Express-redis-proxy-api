@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",         // Choose your target ECMAScript version
+      "module": "CommonJS",    // Use CommonJS for Node.js
+      "outDir": "./dist",      // Output directory for compiled code
+      "rootDir": "./src",      // Source code directory
+      "strict": true,          // Enable strict type checking
+      "esModuleInterop": true, // Enable compatibility with commonJS modules
+      "forceConsistentCasingInFileNames": true, // Enforce consistent file names
+      "resolveJsonModule": true, // Allow importing JSON files
+      "skipLibCheck": true,     // Skip type checking of declaration files
+      "lib": ["ES6", "DOM"],  // Add libraries you need (e.g., DOM for browser-related code)
+    },
+    "include": ["src/**/*.ts"], // Include your TypeScript source files
+    "exclude": ["node_modules"] // Exclude node_modules from compilation
+  }
